@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+#carousel-container {
+    width: 200px;
+    overflow: hidden;
+    margin: 30px auto;
+  }
+
+  #image-carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+
+  }
+
+  .carousel-image {
+    width:300px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  #prevBtn, #nextBtn {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    font-size: 20px;
+    color: #fff; 
+    background-color: #000; 
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius: 50%;
+  }
+
+  #prevBtn {
+    left: 470px;
+  }
+
+  #nextBtn {
+    right: 470px;
+  }
